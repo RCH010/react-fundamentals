@@ -39,7 +39,7 @@
 ## System Requirements
 
 - [git][git] v2.13 or greater
-- [NodeJS][node] `12 || 14 || 15`
+- [NodeJS][node] `12 || 14 || 15 || 16`
 - [npm][npm] v6 or greater
 
 All of these must be available in your `PATH`. To verify things are set up
@@ -227,6 +227,11 @@ Thanks goes to these wonderful people
     <td align="center"><a href="https://au.linkedin.com/pub/yaseen-kadir/102/99a/49a"><img src="https://avatars1.githubusercontent.com/u/8746946?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yaseen Kadir</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/issues?q=author%3Ayaseenkadir" title="Bug reports">🐛</a></td>
     <td align="center"><a href="http://viglucci.io"><img src="https://avatars0.githubusercontent.com/u/6305490?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kevin Viglucci</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=viglucci" title="Documentation">📖</a></td>
     <td align="center"><a href="http://www.iliyan-trifonov.com"><img src="https://avatars.githubusercontent.com/u/2099265?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Iliyan Trifonov</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=iliyan-trifonov" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://dev.to/oscardom"><img src="https://avatars.githubusercontent.com/u/2574275?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oscar Dominguez</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=oscard0m" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://cpcomponents.com"><img src="https://avatars.githubusercontent.com/u/32409546?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aaron Casanova</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=aaronccasanova" title="Code">💻</a></td>
+    <td align="center"><a href="https://kylegach.com"><img src="https://avatars.githubusercontent.com/u/486540?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kyle Gach</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=kylegach" title="Documentation">📖</a></td>
   </tr>
 </table>
 

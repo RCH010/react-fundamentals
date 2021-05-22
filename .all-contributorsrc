@@ -383,6 +383,33 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "oscard0m",
+      "name": "Oscar Dominguez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2574275?v=4",
+      "profile": "https://dev.to/oscardom",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "aaronccasanova",
+      "name": "Aaron Casanova",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32409546?v=4",
+      "profile": "http://cpcomponents.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "kylegach",
+      "name": "Kyle Gach",
+      "avatar_url": "https://avatars.githubusercontent.com/u/486540?v=4",
+      "profile": "https://kylegach.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "skipCi": true
