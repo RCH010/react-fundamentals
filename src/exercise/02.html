@@ -3,11 +3,10 @@
 
 <body>
   <div id="root"></div>
-
-  <!-- 💣 remove this line
+  <!-- With this two, I obtain the goblal variables, react and react dom -->
   <script src="https://unpkg.com/react@17.0.0/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.development.js"></script>
-  💣 remove this line -->
+  
 
   <script type="module">
     const rootElement = document.getElementById('root')
@@ -15,14 +14,26 @@
     // You're going to re-implement this code using React!
     // 💣 So go ahead and delete this implementation (or comment it out for now)
     // These three lines are similar to React.createElement
-    const element = document.createElement('div')
-    element.textContent = 'Hello World' // 💰 in React, you set this with the "children" prop
-    element.className = 'container' // 💰 in React, this is also called the "className" prop
+    // const element = document.createElement('div')ß
+    // element.textContent = 'Hello World' // 💰 in React, you set this with the "children" prop
+    // element.className = 'container' // 💰 in React, this is also called the "className" prop
     // This is similar to ReactDOM.render
-    rootElement.append(element)
+    // rootElement.append(element)
 
-    // 🐨 Please re-implement the regular document.createElement code above
-    // with these React API calls
-    // 💰 The example in the markdown file should be a good hint for you.
+    // FISRT SOLUTION
+    // const elementProps = {id: 'something', children: 'Hello World', className: 'container'};
+    // const elementType = 'div';
+    // const reactElement = React.createElement(elementType, elementProps);
+    // ReactDOM.render(reactElement, rootElement);
+
+    // EXTRA CREDIT
+    const elementSpan = 'span'
+    const reactSpan1 = React.createElement('span', {key: '1', children: 'Hello'} );
+    const reactSpan2 = React.createElement('span', {key: '2', children: 'World'} );
+
+    const reactContainer = React.createElement('div', {children: [reactSpan1, reactSpan2], className: 'container'});
+
+    ReactDOM.render(reactContainer, rootElement);
+
   </script>
 </body>
